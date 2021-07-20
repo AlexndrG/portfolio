@@ -1,0 +1,28 @@
+.propject {
+    width: 350px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture {
+    width: 350px;
+    height: 350px;
+    background-color: gold;
+}
+
+.propjectContainer {
+    width: 90%;
+    padding-bottom: 5%;
+}
+
+.title {
+    background-color: lavender;
+    border: 1px solid;
+}
+
+.description {
+    background-color: lavender;
+    border: 1px solid;
+}

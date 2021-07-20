@@ -1,0 +1,13 @@
+.remoteBlock {
+    height: 150px;
+    background-color: khaki;
+}
+
+.remoteContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: lightgrey;
+}

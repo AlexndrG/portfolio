@@ -3,6 +3,10 @@
     background-color: lightpink;
 }
 
+.mainContainer {
+    justify-content: space-between;
+}
+
 .text {
     width: 300px;
     background-color: beige;

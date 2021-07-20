@@ -1,9 +1,9 @@
-.skillsBlock {
+.propjectsBlock {
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: plum;
 }
 
-.skillsContainer {
+.propjectsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -12,7 +12,7 @@
     background-color: lightgrey;
 }
 
-.skills {
+.propjects {
     border: 1px solid;
     width: 100%;
     display: flex;

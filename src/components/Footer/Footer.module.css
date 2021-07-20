@@ -1,0 +1,24 @@
+.footerBlock {
+    height: 250px;
+    background-color: chartreuse;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: lightgrey;
+}
+
+.media {
+    border: 1px solid;
+    display: flex;
+}
+
+.icon {
+    border: 1px dashed;
+    width: 75px;
+    height: 75px;
+}
