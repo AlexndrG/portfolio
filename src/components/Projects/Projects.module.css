@@ -1,6 +1,8 @@
 .propjectsBlock {
     min-height: 100vh;
     background-color: plum;
+    display: flex;
+    align-items: stretch;
 }
 
 .propjectsContainer {

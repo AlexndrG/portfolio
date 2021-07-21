@@ -1,6 +1,8 @@
 .footerBlock {
-    height: 250px;
+    min-height: 250px;
     background-color: chartreuse;
+    display: flex;
+    align-items: stretch;
 }
 
 .footerContainer {
@@ -15,6 +17,7 @@
 .media {
     border: 1px solid;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .icon {

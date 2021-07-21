@@ -1,6 +1,8 @@
 .remoteBlock {
     height: 150px;
     background-color: khaki;
+    display: flex;
+    align-items: stretch;
 }
 
 .remoteContainer {
