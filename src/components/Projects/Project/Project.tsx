@@ -1,15 +1,17 @@
 import React from 'react';
 import s from './Project.module.css'
 
-type PropjectPropsType ={
+type PropjectPropsType = {
     title: string
     description: string
 }
 
-export const Project = (props:PropjectPropsType) => {
+export const Project = (props: PropjectPropsType) => {
     return (
         <div className={s.propject}>
-            <div className={s.picture}></div>
+            <a href={''}>
+                <div className={s.picture}></div>
+            </a>
             <div className={s.propjectContainer}>
                 <h3 className={s.title}>{props.title}</h3>
                 <div className={s.description}>{props.description}</div>

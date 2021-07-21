@@ -7,7 +7,7 @@
 
 .contactsContainer {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .title {
@@ -15,8 +15,9 @@
 }
 
 .form {
-    height: 70%;
     border: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

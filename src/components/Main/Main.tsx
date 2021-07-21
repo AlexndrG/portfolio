@@ -8,7 +8,9 @@ export const Main = () => {
             <div className={`${sContainer.container} ${s.mainContainer}`}>
                 <div className={s.text}>
                     <span>Hi there!</span>
-                    <h1>I am ...</h1>
+                    <h1>I am ... <br/>
+                        Alexandr G
+                    </h1>
                     <p>React/Redux developer</p>
                 </div>
 
