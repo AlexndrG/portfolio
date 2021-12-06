@@ -1,0 +1,37 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+
+
+.mainBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+  display: flex;
+  align-items: stretch;
+
+  @include text($fontFamilyJosefinSans, 20px, 1.8);
+
+  .mainContainer {
+    justify-content: space-around;
+
+    @media screen and (max-width: 706px) {
+      justify-content: center;
+    }
+
+    .text {
+      width: 275px;
+      text-align: center;
+      //background-color: peachpuff;
+    }
+
+    .photo {
+      width: 275px;
+      height: 350px;
+      background-color: beige;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      //position: relative;
+    }
+  }
+}

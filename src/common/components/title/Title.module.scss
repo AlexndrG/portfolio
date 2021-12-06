@@ -1,15 +1,20 @@
 @import '../../../common/styles/sass/variables';
+@import '../../../common/styles/sass/mixins';
 
 .title {
-  margin: 30px 0;
-  color: $textColor;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
+  margin: 30px 0 50px;
+  padding: 0 30px;
+  //color: $textColor;
+  //font-family: 'Josefin Sans', sans-serif;
+  //font-size: 30px;
+  //line-height: 1.2;
+  @include text($fontFamilyJosefinSans, 30px, 1.2);
   font-weight: 300;
-  line-height: 1.2;
   letter-spacing: 5px;
   text-transform: capitalize;
+  text-align: center;
   position: relative;
+
 
   &::after {
     content: '';

@@ -1,0 +1,52 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.footerBlock {
+    min-height: 250px;
+    background-color: $bgColorSecond;
+    display: flex;
+    align-items: stretch;
+
+    .footerContainer {
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title {
+            //background-color: lightgrey;
+            @include text($fontFamilyJosefinSans, 16px, 1.8);
+        }
+
+        .media {
+            //border: 1px solid white;
+            display: flex;
+            flex-wrap: wrap;
+
+            @media screen and (max-width: 530px) {
+                width: 150px;
+                justify-content: center;
+            }
+
+            @include text($fontFamilyJosefinSans, 16px, 1.8);
+
+            .icon {
+                //border: 1px dashed;
+                background-color: $primaryColor;
+                transform: rotate(45deg);
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                margin: 30px;
+                width: 75px;
+                height: 75px;
+
+                .iconText {
+                    //border: 1px solid red;
+                    transform: rotate(-45deg);
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

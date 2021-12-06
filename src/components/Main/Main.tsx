@@ -1,6 +1,7 @@
 import React from 'react';
-import s from './Main.module.css'
+import s from './Main.module.scss'
 import sContainer from '../../common/styles/container.module.css'
+import photo from '../../assets/image/photo.png'
 
 export const Main = () => {
     return (
@@ -14,7 +15,9 @@ export const Main = () => {
                     <p>React/Redux developer</p>
                 </div>
 
-                <div className={s.photo}></div>
+                <div>
+                    <img className={s.photo} src={photo} alt={'Photo'}/>
+                </div>
             </div>
         </div>
     )
